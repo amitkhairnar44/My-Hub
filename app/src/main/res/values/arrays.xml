@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_faculty_codes">
+        <item>cse-admin-control</item>
+        <item>it-admin-control</item>
+    </string-array>
+    <string-array name="pref_student_codes">
+        <item>cse</item>
+        <item>it</item>
+    </string-array>
+</resources>
