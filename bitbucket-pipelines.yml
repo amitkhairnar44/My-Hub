@@ -19,5 +19,5 @@ pipelines:
           #- echo y | android update sdk --filter extra-android-m2repository,extra-android-support --no-ui
           #- echo y | android update sdk --filter "platform-tools" --no-ui -a
           #- echo y | android update sdk --filter "extra-google-m2repository" --no-ui -a
-          - chmod +x gradlew
+          - chmod -R a+X gradlew
           - ./gradlew build
