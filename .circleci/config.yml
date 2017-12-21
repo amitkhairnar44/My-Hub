@@ -23,6 +23,9 @@ jobs:
           name: Run Tests
           command: ./gradlew lint test
       - run:
+          name: Install Tree
+          command: sudo apt-get install tree
+      - run:
           name: Show tree
           command: tree
       - run:
