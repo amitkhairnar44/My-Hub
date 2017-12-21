@@ -23,6 +23,9 @@ jobs:
           name: Run Tests
           command: ./gradlew lint test
       - run:
+          name: Show tree
+          command: tree
+      - run:
           name: Upload apk
           command: curl -X POST --user "amitkhairnar44:SUkd24gGr4F5c8FFse4t" "https://api.bitbucket.org/2.0/repositories/amitkhairnar44/my-hub/downloads" --form files=@"/home/circleci/code/app/build/outputs/apk/debug/app_debug.apk"
       
